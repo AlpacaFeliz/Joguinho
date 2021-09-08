@@ -33,8 +33,7 @@ public class SettingMenu : MonoBehaviour
     }
 
     public void SetEffect (float effectVolume) {
-        Debug.Log(effectVolume);
-        //audioMixer.SetFloat("effect", effectVolume);
+        audioMixer.SetFloat("effectsVolume", effectVolume);
     }
 
     public void SetFullScreen (bool isFullScreen) {
